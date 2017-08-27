@@ -22,7 +22,6 @@ Partial Class _Default
         Dim myText As String
         myText = myreader.ReadToEnd
         Dim json As JObject = JObject.Parse(myText)
-
         Dim dt As New DataTable
         dt.Columns.Add("login")
         dt.Columns.Add("ru")
